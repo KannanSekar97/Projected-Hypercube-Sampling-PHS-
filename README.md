@@ -4,7 +4,7 @@ To address the existing limitations of reference vector generation method which 
 
 In this approach, the number of initial samples on the hypercube and the number of points per edge are use defined.
 
-
+The Alpha parameterized covex Pareto front shapes shown below, we can see that the curvature of the pareto front increases as alpha increaes.
 <table align="center">
   <tr>
     <td align="center">
@@ -22,7 +22,7 @@ In this approach, the number of initial samples on the hypercube and the number 
   </tr>
 </table>
 
-
+The generated reference vector of Das and dennis systematic sampling (SS) and the Projected hypercube sampling is depicted here.
 <p align="center">
   <img width="320" height="340" alt="SS sampling" src="https://github.com/user-attachments/assets/d490a24e-4b10-4cc4-824f-dda204f7ee44" />
   <img width="320" height="340" alt="PHS sampling" src="https://github.com/user-attachments/assets/f5481449-7d0a-42c1-bd28-2cfc4e317cec" />
@@ -31,4 +31,8 @@ In this approach, the number of initial samples on the hypercube and the number 
   <em>Das and Dennis systematic sampling</em> &nbsp;&nbsp;&nbsp;
   <em>Projected hypercube sampling (PHS)</em> &nbsp;&nbsp;&nbsp;
 </p>
+
+The comparison studies on multiple alpha parameterized convex and non-convex Pareto fronts shapes with different number of reference points are done using IGD and Coverage error, the result shows that the SS saturates early with increasing reference points while PHS improves continuosly. With increasing alpha, the SS performs poorly while PHS shows less sensitivity to the alpha curvature.
+
+Statistical study on random initilaization of the PHS is done using 31 trials. The result is compared against the SS and the result guaranties that the inference doesn't change with different initialization.
 
