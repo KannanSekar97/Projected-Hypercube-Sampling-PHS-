@@ -14,15 +14,15 @@ In this approach, the number of initial samples on the hypercube and the number 
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/913391be-0413-41a8-af2d-00b0f03b1380" width="300"/><br>
+      <img width="300" height="320" alt="Convex_alpha_1" src="https://github.com/user-attachments/assets/719d0971-0994-4a5b-b744-c3153a208d32" />
       <em>Convex PF $\alpha=1$</em>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/d490a24e-4b10-4cc4-824f-dda204f7ee44" width="300"/><br>
+     <img width="300" height="320" alt="Convex_alpha_5" src="https://github.com/user-attachments/assets/f0efae3b-fe4a-41be-9f05-3adc681aa598" />
       <em>Convex PF $\alpha=5$</em>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/f5481449-7d0a-42c1-bd28-2cfc4e317cec" width="300"/><br>
+      <img width="300" height="320" alt="Convex_alpha_30" src="https://github.com/user-attachments/assets/66e74b74-2fac-44c2-bdf3-2095e93db607" />
       <em>Convex PF $\alpha=30$</em>
     </td>
   </tr>
