@@ -1,8 +1,6 @@
 # Projected-Hypercube-Sampling-PHS
 
-To address the existing limitations of reference vector generation method which is center biased and geometry dependent, we proposed a Projected Hypercube Sampling (PHS) that arbitrarily samples in the uniform hypercube to densely cover the space and on their edges, project them onto the reference hyperplane, from this required number of reference vectors are selected using greedy equidistant approach,and finally these reference vectors are constructed normal to the reference hyperplane (0-1 direction) to intersect the Pareto surface.
-
-In this approach, the number of initial samples on the hypercube and the number of points per edge are use defined.
+To address the existing limitations of reference vector generation method which is center biased and geometry dependent, we proposed a Projected Hypercube Sampling (PHS) that arbitrarily samples in the uniform hypercube to densely cover the space and on their edges, project them onto the reference hyperplane, from this required number of reference vectors are selected using greedy equidistant approach,and finally these reference vectors are constructed normal to the reference hyperplane (0-1 direction) to intersect the Pareto surface. The proposed framework explained below
 
 <table align="center">
   <tr>
@@ -33,10 +31,11 @@ In this approach, the number of initial samples on the hypercube and the number 
 
 <p align="center">
   <em>
-  Overview of the proposed sampling and reference construction process.
+  Overview of the proposed Projected Hypercube Sampling based reference vector generation.
   </em>
 </p>
 
+In this approach, the number of initial samples on the hypercube and the number of points per edge are use defined.
 
 The Alpha parameterized covex Pareto front shapes shown below, we can see that the curvature of the pareto front increases as alpha increaes.
 <table align="center">
