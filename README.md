@@ -7,24 +7,24 @@ In this approach, the number of initial samples on the hypercube and the number 
 <table align="center">
   <tr>
     <td align="center">
-      <img width="300" height="320" src="sampling_in_cube.png" />
+      <img width="320" height="340" alt="sampling_in_cube" src="https://github.com/user-attachments/assets/8f6f21c0-a365-4dc3-90de-224923e287ac" />
       <br/>
       <em>(a) Sampling in cube</em>
     </td>
     <td align="center">
-      <img width="300" height="320" src="projection_on_reference_hyperlane.png" />
+      <img width="320" height="340" alt="projection_on_reference_hyperlane" src="https://github.com/user-attachments/assets/5c906f95-73f4-4261-ac97-092f1ab3c450" />
       <br/>
       <em>(b) Projection onto reference hyperplane</em>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img width="300" height="320" src="1quidistance_reference_point_selection.png" />
+      <img width="320" height="340" alt="1quidistance_reference_point_selection" src="https://github.com/user-attachments/assets/ef7948bc-ad85-41e0-ba21-2571a38b8888" />
       <br/>
       <em>(c) Equidistant reference point selection</em>
     </td>
     <td align="center">
-      <img width="300" height="320" src="parallel_reference_vector_construction.png" />
+      <img width="320" height="340" alt="parallel_reference_vector_construction" src="https://github.com/user-attachments/assets/e28a6173-e7d0-48db-a64f-d6db458560d0" />
       <br/>
       <em>(d) Parallel reference vector construction</em>
     </td>
