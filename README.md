@@ -42,15 +42,15 @@ The Alpha parameterized covex Pareto front shapes shown below, we can see that t
   <tr>
     <td align="center">
       <img width="300" height="320" alt="Convex_alpha_1" src="https://github.com/user-attachments/assets/719d0971-0994-4a5b-b744-c3153a208d32" />
-      <em>Convex PF $\alpha=1$</em>
+      <em>Convex PF alpha=1</em>
     </td>
     <td align="center">
      <img width="300" height="320" alt="Convex_alpha_5" src="https://github.com/user-attachments/assets/f0efae3b-fe4a-41be-9f05-3adc681aa598" />
-      <em>Convex PF $\alpha=5$</em>
+      <em>Convex PF alpha=5</em>
     </td>
     <td align="center">
       <img width="300" height="320" alt="Convex_alpha_30" src="https://github.com/user-attachments/assets/66e74b74-2fac-44c2-bdf3-2095e93db607" />
-      <em>Convex PF $\alpha=30$</em>
+      <em>Convex PF alpha=30</em>
     </td>
   </tr>
 </table>
@@ -69,4 +69,5 @@ The generated reference vector of Das and dennis based systematic sampling (SS) 
 The comparison studies on multiple alpha parameterized convex and non-convex Pareto fronts shapes with different number of reference points are done using IGD and Coverage error, the result shows that the SS saturates early with increasing reference points while PHS improves continuosly. With increasing alpha, the SS performs poorly while PHS shows less sensitivity to the alpha curvature.
 
 Statistical study on random initilaization of the PHS is done using 31 trials. The result is compared against the SS and the result guaranties that the inference doesn't change with different initialization.
+PHS coverage error is more with less number of reference points for higher dimensions from M=8, 10, 15, etc. However, increasing the reference point density gradualy lower the coverage error and performs better than SS.
 
