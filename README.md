@@ -57,17 +57,22 @@ The Alpha parameterized covex Pareto front shapes shown below, we can see that t
 
 
 The generated reference vector of Das and dennis based systematic sampling (SS) and the Projected hypercube sampling is depicted here.
-<p align="center">
-  <img width="320" height="340" alt="SS sampling" src="https://github.com/user-attachments/assets/d490a24e-4b10-4cc4-824f-dda204f7ee44" />
-  <img width="320" height="340" alt="PHS sampling" src="https://github.com/user-attachments/assets/f5481449-7d0a-42c1-bd28-2cfc4e317cec" />
-</p>
-<p align="center">
-  <em>Das and Dennis systematic sampling</em> &nbsp;&nbsp;&nbsp;
-  <em>Projected hypercube sampling (PHS)</em> &nbsp;&nbsp;&nbsp;
-</p>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img width="320" height="340" alt="SS sampling" src="https://github.com/user-attachments/assets/d490a24e-4b10-4cc4-824f-dda204f7ee44" />
+      <em>Das and Dennis systematic sampling (SS) </em>
+    </td>
+    <td align="center">
+     <img width="320" height="340" alt="PHS sampling" src="https://github.com/user-attachments/assets/f5481449-7d0a-42c1-bd28-2cfc4e317cec" />
+      <em>Projected hypercube sampling (PHS) </em>
+    </td>
+  </tr>
+</table>
 
 The comparison studies on multiple alpha parameterized convex and non-convex Pareto fronts shapes with different number of reference points are done using IGD and Coverage error, the result shows that the SS saturates early with increasing reference points while PHS improves continuosly. With increasing alpha, the SS performs poorly while PHS shows less sensitivity to the alpha curvature.
 
 Statistical study on random initilaization of the PHS is done using 31 trials. The result is compared against the SS and the result guaranties that the inference doesn't change with different initialization.
 PHS coverage error is more with less number of reference points for higher dimensions from M=8, 10, 15, etc. However, increasing the reference point density gradualy lower the coverage error and performs better than SS.
-
+Further, the efficacy of the proposed PHS tested DTLZ7 - a disconnected pareto front problem, the result proves the claim that SS performs poor in the disconnected front.
