@@ -61,11 +61,11 @@ The generated reference vector of Das and dennis based systematic sampling (SS) 
 <table align="center">
   <tr>
     <td align="center">
-      <img width="320" height="340" alt="SS sampling" src="https://github.com/user-attachments/assets/d490a24e-4b10-4cc4-824f-dda204f7ee44" />
+      <img width="400" height="420" alt="SS sampling" src="https://github.com/user-attachments/assets/d490a24e-4b10-4cc4-824f-dda204f7ee44" />
       <em>Das and Dennis systematic sampling (SS) </em>
     </td>
     <td align="center">
-     <img width="320" height="340" alt="PHS sampling" src="https://github.com/user-attachments/assets/f5481449-7d0a-42c1-bd28-2cfc4e317cec" />
+     <img width="400" height="420" alt="PHS sampling" src="https://github.com/user-attachments/assets/f5481449-7d0a-42c1-bd28-2cfc4e317cec" />
       <em>Projected hypercube sampling (PHS) </em>
     </td>
   </tr>
