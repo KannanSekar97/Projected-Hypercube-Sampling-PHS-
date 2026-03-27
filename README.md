@@ -76,3 +76,8 @@ The comparison studies on multiple alpha parameterized convex and non-convex Par
 Statistical study on random initilaization of the PHS is done using 31 trials. The result is compared against the SS and the result guaranties that the inference doesn't change with different initialization.
 PHS coverage error is more with less number of reference points for higher dimensions from M=8, 10, 15, etc. However, increasing the reference point density gradualy lower the coverage error and performs better than SS.
 Further, the efficacy of the proposed PHS tested DTLZ7 - a disconnected pareto front problem, the result proves the claim that SS performs poor in the disconnected front.
+
+
+
+Sekar, K., Kapoor, A., Singh, H.K. and Ray, T., "Projected Hypercube Sampling with Parallel Reference Vectors for Uniform Coverage of Irregular Pareto-Optimal Fronts", in Proceedings of the IEEE Congress on Evolutionary
+Computation, (MECC, Maastricht, Netherlands) in press, Accepted 03/2026 
